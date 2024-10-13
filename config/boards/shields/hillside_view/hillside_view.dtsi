@@ -189,7 +189,7 @@ nice_view_spi: &spi1 {
   };
 };
 
-{
+/ {
 // 	/* assign `input-listener` to all pointing devices */
 // 	/* &glidepoint0 on central, &glidepoint1 on peripheral */
 //     tpad_central_listener {
