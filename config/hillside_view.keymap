@@ -44,7 +44,7 @@
     tpad_peripheral_listener {
         compatible = "zmk,input-behavior-listener";
         device = <&glidepoint1>;
-        layers = <DEF SYM NAV SET>;
+        layers = <QWERTY_L>;
         y-invert;
         scale-multiplier = <2>;
         /* NOTE: do NOT override event code here, */
