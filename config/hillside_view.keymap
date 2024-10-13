@@ -122,32 +122,32 @@
     };
 
     // tap: sticky layer 1 | double tap: toggle layer 1
-    cl_num: cl_num {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_LAYER_NUM";
-        #binding-cells = <0>;
-        tapping-term-ms = <200>;
+    //cl_num: cl_num {
+    //    compatible = "zmk,behavior-tap-dance";
+    //    label = "TD_LAYER_NUM";
+    //    #binding-cells = <0>;
+    //    tapping-term-ms = <200>;
         // bindings = <&sl NUM>, <&to NUM>;
-        bindings = <&mo NUM>, <&to NUM>;
-    };
+    //    bindings = <&mo NUM>, <&to NUM>;
+    //};
 
      // tap: sticky layer 2 | double tap: toggle layer 2
-     cl_sym: cl_sym {
-         compatible = "zmk,behavior-tap-dance";
-         label = "TD_LAYER_SYM";
-         #binding-cells = <0>;
-         tapping-term-ms = <200>;
-         bindings = <&sl SYM>, <&to SYM>;
-     };
+     //cl_sym: cl_sym {
+     //    compatible = "zmk,behavior-tap-dance";
+     //    label = "TD_LAYER_SYM";
+     //    #binding-cells = <0>;
+     //    tapping-term-ms = <200>;
+     //    bindings = <&sl SYM>, <&to SYM>;
+     //};
 
      // tap: sticky layer 3 | double tap: toggle layer 3
-     cl_nav: cl_nav {
-         compatible = "zmk,behavior-tap-dance";
-         label = "TD_LAYER_NAV";
-         #binding-cells = <0>;
-         tapping-term-ms = <200>;
-         bindings = <&sl NAV>, <&to NAV>;
-     };
+     //cl_nav: cl_nav {
+     //    compatible = "zmk,behavior-tap-dance";
+     //    label = "TD_LAYER_NAV";
+     //    #binding-cells = <0>;
+     //    tapping-term-ms = <200>;
+     //    bindings = <&sl NAV>, <&to NAV>;
+     //};
   };
 
   // Key numbers
