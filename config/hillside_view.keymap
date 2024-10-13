@@ -57,7 +57,7 @@
     tpad_peripheral_scroll {
         compatible = "zmk,input-behavior-listener";
         device = <&glidepoint1>;
-        layers = <NUM>;
+        layers = <QWERTY_L>;
         /* NOTE: only apply input-code overriding for INPUT_EV_REL */
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_HWHEEL>;
