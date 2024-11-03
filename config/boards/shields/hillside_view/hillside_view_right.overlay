@@ -49,9 +49,11 @@
         status = "okay";
 	sensitivity = "1x";
 	
-	rotate_90;
+	rotate-90;
         sleep;
         no-taps;
+	x-axis-z-min = 5;
+	y-axis-z-min = 4;
     };
 };
 
