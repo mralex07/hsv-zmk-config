@@ -34,7 +34,7 @@
         device = <&glidepoint0>;
         y-invert;
         scale-multiplier = <2>;
-        sleep = <0>;
+        sleep = <false>;
 
         // xy-swap;
         // x-invert;
