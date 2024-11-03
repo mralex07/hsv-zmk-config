@@ -47,13 +47,14 @@
     status = "okay";
     glidepoint0: glidepoint@2a {
         status = "okay";
-	sensitivity = "1x";
 	
-	rotate-90;
-        sleep;
-        no-taps;
-	x-axis-z-min = <5>;
-	y-axis-z-min = <4>;
+	// trackpad adjust parametres 
+	sensitivity = "1x";
+	// rotate-90;
+        // sleep;
+        // no-taps;
+	// x-axis-z-min = <5>;
+	// y-axis-z-min = <4>;
     };
 };
 
