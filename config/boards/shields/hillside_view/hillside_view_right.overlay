@@ -47,6 +47,9 @@
     status = "okay";
     glidepoint0: glidepoint@2a {
         status = "okay";
+	sensitivity = "1x";
+        // sleep;
+        // no-taps;
     };
 };
 
