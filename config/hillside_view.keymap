@@ -35,9 +35,7 @@
         y-invert;
         scale-multiplier = <2>;
         
-        sensitivity = "1x";
-        // sleep;
-        // no-taps;
+
  
 
         // xy-swap;
