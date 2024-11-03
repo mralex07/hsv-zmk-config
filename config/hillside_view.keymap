@@ -34,7 +34,10 @@
         device = <&glidepoint0>;
         y-invert;
         scale-multiplier = <2>;
-        // sleep = <false>;
+        
+        sensitivity = "1x";
+        // sleep;
+        // no-taps;
  
 
         // xy-swap;
